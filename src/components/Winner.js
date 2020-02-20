@@ -48,7 +48,6 @@ const styles = {
   },
   button: {
     boxShadow: "unset",
-    backgroundColor: "#ffe8cc",
     border: "none",
     borderRadius: "3px",
     "&:focus": {

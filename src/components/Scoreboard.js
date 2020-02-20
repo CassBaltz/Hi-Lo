@@ -90,7 +90,7 @@ export const styles = {
 const getStatusColor = player => {
   switch (player.gameStatus) {
     case GAME_STATUSES.TIED:
-      return "#ffd43b";
+      return "#adb5bd";
     case GAME_STATUSES.LOSING:
       return "#e03131";
     case GAME_STATUSES.WINNING:
