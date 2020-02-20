@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Instructions /> should display a modal with instructions 1`] = `
+<Instructions
+  classes={
+    Object {
+      "button": "Instructions-button-4",
+      "closeButtonWrapper": "Instructions-closeButtonWrapper-2",
+      "content": "Instructions-content-3",
+      "root": "Instructions-root-1",
+    }
+  }
+/>
+`;

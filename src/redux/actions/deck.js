@@ -1,8 +1,9 @@
 import axios from 'axios';
 
-export const NEW_DECK_URL = 'https://deckofcardsapi.com/api/deck/new/draw/?count=52';
+export const DECK_SIZE = 52;
+export const NEW_DECK_URL = `https://deckofcardsapi.com/api/deck/new/draw/?count=${DECK_SIZE}`;
 export const getShuffleDeckUrl = deckId => `https://deckofcardsapi.com/api/deck/${deckId}/shuffle/`;
-export const getDrawnCardsFromShuffledDeckUrl = deckId => `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=52`;
+export const getDrawnCardsFromShuffledDeckUrl = deckId => `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=${DECK_SIZE}`;
 
 export const RESET_DECK = 'RESET_DECK';
 export const resetDeck = () => ({

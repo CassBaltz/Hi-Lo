@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Game /> should render two players and a table component 1`] = `
+<div>
+  <Connect(WithStyles(Player))
+    playerKey="PLAYER_ONE"
+  />
+  <Connect(WithStyles(Table)) />
+  <Connect(WithStyles(Player))
+    playerKey="PLAYER_TWO"
+    rotateAvatar={true}
+  />
+</div>
+`;

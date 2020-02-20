@@ -31,7 +31,7 @@ export const Player = ({ classes, playerKey, }) => {
   );
 };
 
-const styles = {
+export const styles = {
   root: {
     display: "flex",
     position: "relative",

@@ -62,7 +62,7 @@ export const PlayerField = ({ dispatch, classes, playerKey, name, }) => {
   return <em className={classes.staticName} onClick={startEditing}>{name}<span><EditIcon classes={classes} /></span></em>
 };
 
-const styles = {
+export const styles = {
   editNameField: {
     padding: "5px",
   },

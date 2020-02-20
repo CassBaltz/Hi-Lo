@@ -35,7 +35,7 @@ const GAME_STATUSES = {
   LOSING: "LOSING",
 };
 
-const Scoreboard = ({ classes, playerOne, playerTwo, }) => {
+export const Scoreboard = ({ classes, playerOne, playerTwo, }) => {
   return (
     <div className={classes.root}>
       <div className={`${classes.playerWrapper} ${classes.playerOne}`}>
@@ -52,7 +52,7 @@ const Scoreboard = ({ classes, playerOne, playerTwo, }) => {
 };
 
 
-const styles = {
+export const styles = {
   root: {
     display: "flex",
     flexDirection: "column",

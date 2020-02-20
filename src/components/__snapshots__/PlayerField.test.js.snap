@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlayerField /> should render correctly when the field is not being edited 1`] = `
+<em
+  className="staticName"
+  onClick={[Function]}
+>
+  mike
+  <span>
+    <EditIcon
+      classes={
+        Object {
+          "editIcon": "editIcon",
+          "editNameField": "editNameField",
+          "staticName": "staticName",
+        }
+      }
+    />
+  </span>
+</em>
+`;
+
+exports[`<PlayerField /> should show the edit field on click and render the edit field correctly 1`] = `
+<input
+  className="editNameField"
+  defaultValue="mike"
+  onBlur={[Function]}
+  onKeyPress={[Function]}
+  type="text"
+/>
+`;

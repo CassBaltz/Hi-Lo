@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DiscardPile /> should display correctly when there are multiple cards 1`] = `
+<div
+  className="root"
+>
+  <BlankCard
+    classes={
+      Object {
+        "blankCard": "blankCard",
+        "count": "count",
+        "root": "root",
+        "topCard": "topCard",
+      }
+    }
+    key="AD"
+    offSet={0}
+    zIndex={0}
+  />
+  <TopCard
+    card={
+      Object {
+        "code": "KD",
+        "image": "King-url",
+        "value": "KING",
+      }
+    }
+    classes={
+      Object {
+        "blankCard": "blankCard",
+        "count": "count",
+        "root": "root",
+        "topCard": "topCard",
+      }
+    }
+    key="KD"
+    offSet={3}
+    zIndex={1}
+  />
+  <p
+    className="count"
+  >
+    2
+  </p>
+</div>
+`;
+
+exports[`<DiscardPile /> should display correctly when there is only one card 1`] = `
+<div
+  className="root"
+>
+  <TopCard
+    card={
+      Object {
+        "code": "AD",
+        "image": "ace-url",
+        "value": "ACE",
+      }
+    }
+    classes={
+      Object {
+        "blankCard": "blankCard",
+        "count": "count",
+        "root": "root",
+        "topCard": "topCard",
+      }
+    }
+    key="AD"
+    offSet={0}
+    zIndex={0}
+  />
+  <p
+    className="count"
+  >
+    1
+  </p>
+</div>
+`;

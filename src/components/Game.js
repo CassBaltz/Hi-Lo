@@ -1,13 +1,12 @@
 import React from 'react';
-import { withStyles } from '@material-ui/styles';
 
 import Player from './Player';
 import Table from './Table';
 import { PLAYER_ONE, PLAYER_TWO, } from '../redux/constants';
 
-export const Game = ({ classes, }) => {
+export const Game = () => {
   return (
-    <div className={classes.root}>
+    <div>
       <Player playerKey={PLAYER_ONE} />
       <Table />
       <Player playerKey={PLAYER_TWO} rotateAvatar={true} />
@@ -15,9 +14,4 @@ export const Game = ({ classes, }) => {
   );
 };
 
-const styles = {
-  root: {
-  },
-};
-
-export default withStyles(styles)(Game);
+export default Game;

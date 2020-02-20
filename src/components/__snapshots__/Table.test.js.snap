@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render correctly with the default props 1`] = `
+<div
+  className="root"
+>
+  <button
+    className="higherButton"
+    onClick={[Function]}
+  >
+    HIGHER
+  </button>
+  <div
+    className="inlineItems"
+  >
+    <div
+      className="cardDeck"
+    >
+      10
+    </div>
+    <CurrentGuess
+      card={null}
+      classes={
+        Object {
+          "cardDeck": "cardDeck",
+          "currentGuessCard": "currentGuessCard",
+          "currentGuessPlaceholder": "currentGuessPlaceholder",
+          "higherButton": "higherButton",
+          "inlineItems": "inlineItems",
+          "lowerButton": "lowerButton",
+          "passTurnButton": "passTurnButton",
+          "root": "root",
+        }
+      }
+    />
+    <WithStyles(DiscardPile)
+      cardsShowing={1}
+    />
+    <button
+      className="passTurnButton"
+      disabled={true}
+      onClick={[Function]}
+    >
+      PASS TURN
+    </button>
+  </div>
+  <button
+    className="lowerButton"
+    onClick={[Function]}
+  >
+    LOWER
+  </button>
+</div>
+`;

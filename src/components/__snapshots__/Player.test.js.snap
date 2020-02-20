@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Player /> should render correctly when the avatar is rotated 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="avatarContainer"
+  >
+    <div
+      className="head"
+    />
+    <div
+      className="body"
+    />
+    <div
+      className="nose"
+    />
+    <div
+      className="leftEar"
+    />
+    <div
+      className="rightEar"
+    />
+    <div
+      className="sunglasses"
+    />
+    <div
+      className="leftTemple"
+    />
+    <div
+      className="rightTemple"
+    />
+  </div>
+  <div
+    className="playerInfo"
+  >
+    <Connect(WithStyles(PlayerField)) />
+  </div>
+</div>
+`;
+
+exports[`<Player /> should render correctly when the player is NOT playing 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="avatarContainer"
+  >
+    <div
+      className="head"
+    />
+    <div
+      className="body"
+    />
+    <div
+      className="nose"
+    />
+    <div
+      className="leftEar"
+    />
+    <div
+      className="rightEar"
+    />
+    <div
+      className="sunglasses"
+    />
+    <div
+      className="leftTemple"
+    />
+    <div
+      className="rightTemple"
+    />
+  </div>
+  <div
+    className="playerInfo"
+  >
+    <Connect(WithStyles(PlayerField)) />
+  </div>
+</div>
+`;
+
+exports[`<Player /> should render correctly when the player is playing 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="avatarContainer"
+  >
+    <div
+      className="head"
+    />
+    <div
+      className="body"
+    />
+    <div
+      className="nose"
+    />
+    <div
+      className="leftEar"
+    />
+    <div
+      className="rightEar"
+    />
+    <div
+      className="sunglasses"
+    />
+    <div
+      className="leftTemple"
+    />
+    <div
+      className="rightTemple"
+    />
+  </div>
+  <div
+    className="playerInfo"
+  >
+    <Connect(WithStyles(PlayerField)) />
+  </div>
+</div>
+`;

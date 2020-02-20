@@ -11,7 +11,7 @@ export const DEFAULT_STATE = {
     cards: [],
     cardsShowing: [],
     deckId: null,
-    resettingDeck: false,
+    resettingDeck: true,
   },
   game: {
     [PLAYER_ONE]: {
@@ -31,7 +31,6 @@ export const DEFAULT_STATE = {
       isCorrect: false,
       guessedCard: null,
     },
-    winner: null,
   },
 };
 

@@ -104,7 +104,7 @@ const currentGuessShared = {
   left: "60px",
 };
 
-const styles = {
+export const styles = {
   root: {
     backgroundColor: "#fff4e6",
     border: "8px solid #fd7e14",

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Scoreboard /> should render correctly when given the default props 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="playerWrapper playerOne"
+  >
+    <p>
+      mike
+    </p>
+    <p>
+      0
+    </p>
+  </div>
+  <div
+    className="divider"
+  >
+    <UpArrow
+      classes={
+        Object {
+          "arrow": "arrow",
+          "divider": "divider",
+          "playerOne": "playerOne",
+          "playerTwo": "playerTwo",
+          "playerWrapper": "playerWrapper",
+          "root": "root",
+        }
+      }
+    />
+  </div>
+  <div
+    className="playerWrapper playerTwo"
+  >
+    <p>
+      jim
+    </p>
+    <p>
+      0
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Scoreboard /> should render correctly when player one is winning 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="playerWrapper playerOne"
+  >
+    <p>
+      mike
+    </p>
+    <p>
+      0
+    </p>
+  </div>
+  <div
+    className="divider"
+  >
+    <UpArrow
+      classes={
+        Object {
+          "arrow": "arrow",
+          "divider": "divider",
+          "playerOne": "playerOne",
+          "playerTwo": "playerTwo",
+          "playerWrapper": "playerWrapper",
+          "root": "root",
+        }
+      }
+    />
+  </div>
+  <div
+    className="playerWrapper playerTwo"
+  >
+    <p>
+      jim
+    </p>
+    <p>
+      1
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Scoreboard /> should render correctly when player two is winning and it is player two's turn 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="playerWrapper playerOne"
+  >
+    <p>
+      mike
+    </p>
+    <p>
+      1
+    </p>
+  </div>
+  <div
+    className="divider"
+  >
+    <DownArrow
+      classes={
+        Object {
+          "arrow": "arrow",
+          "divider": "divider",
+          "playerOne": "playerOne",
+          "playerTwo": "playerTwo",
+          "playerWrapper": "playerWrapper",
+          "root": "root",
+        }
+      }
+    />
+  </div>
+  <div
+    className="playerWrapper playerTwo"
+  >
+    <p>
+      jim
+    </p>
+    <p>
+      0
+    </p>
+  </div>
+</div>
+`;
