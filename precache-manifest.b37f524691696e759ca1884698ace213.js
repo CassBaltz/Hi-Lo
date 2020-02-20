@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b47ee4c41983d763d0c2ced7f8d445b",
+    "revision": "b7b7e33edf28d4da5170525fa6022612",
     "url": "/Hi-Lo/index.html"
   },
   {
-    "revision": "0fea9313a92df8737231",
+    "revision": "6eec3276d93f50b56f56",
     "url": "/Hi-Lo/static/css/main.6f8f5475.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Hi-Lo/static/js/2.0f07c080.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0fea9313a92df8737231",
-    "url": "/Hi-Lo/static/js/main.eccbb2d8.chunk.js"
+    "revision": "6eec3276d93f50b56f56",
+    "url": "/Hi-Lo/static/js/main.b3c27c42.chunk.js"
   },
   {
     "revision": "e17e7438507d1bfb6234",
